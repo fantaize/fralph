@@ -13,7 +13,17 @@ Based on [Geoffrey Huntley's Ralph pattern](https://ghuntley.com/ralph/).
 
 ## Setup
 
-### Option 1: Copy to your project
+### Clone the project
+
+```
+git clone https://github.com/fantaize/fralph.git && cd fralph
+```
+
+If you need the PRD skill
+
+```bash
+cp -r skill/prd ~/.config/opencode/skill/
+```
 
 Copy the ralph files into your project:
 
@@ -21,17 +31,9 @@ Copy the ralph files into your project:
 # From your project root
 mkdir -p scripts/fralph
 cp /path/to/fralph/fralph.sh scripts/fralph/
-cp /path/to/fralph/prompt.md scripts/fralph/
 chmod +x scripts/fralph/fralph.sh
 ```
 
-### Option 2: Install skills globally
-
-Copy the skills to your Amp config for use across all projects:
-
-```bash
-cp -r skill/prd ~/.config/opencode/skill/
-```
 
 ## Workflow
 
