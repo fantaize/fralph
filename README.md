@@ -6,6 +6,8 @@ Ralph is an autonomous AI agent loop that runs [OpenCode](https://opencode.ai) r
 
 Based on [Geoffrey Huntley's Ralph pattern](https://ghuntley.com/ralph/).
 
+**This project uses OpenCode's Free models**
+
 ## Prerequisites
 
 - [OpenCode](https://opencode.ai) installed
