@@ -103,7 +103,7 @@ Ralph only works if there are feedback loops:
 
 ### Stop Condition
 
-When all stories have `[x]`, Fralph outputs `<promise>COMPLETE</promise>` and the loop exits.
+When all stories have been checked `[x]`, Fralph outputs `<promise>COMPLETE</promise>` and the loop exits.
 
 ## Debugging
 
